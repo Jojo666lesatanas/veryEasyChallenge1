@@ -5,6 +5,6 @@ let count = 0
 
 function IncrementCounter() {
     count += 1
-    document.getElementById("counter").textContent = JSON.stringify(count)
+    counter.textContent = JSON.stringify(count)
 }
 
