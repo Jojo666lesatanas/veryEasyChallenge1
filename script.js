@@ -1,6 +1,6 @@
 const counter = document.getElementById("counter")
 const button = document.getElementById("button")
-const audio = new Audio("/assets/buttonSFX.mp3") 
+const audio = new Audio("assets/buttonSFX.mp3") 
 let count = 0
 
 function IncrementCounter() {
